@@ -7,16 +7,14 @@
 	"version_name": "0.1.0",
 
 	"page_action" : {
-		"default_icon" : "assets/small.png",
+		"default_icon" : "assets/icons/bb16.png",
 		"default_title" : "Save your netid", 
 		"default_popup": "popup.html"
 	},
-
 	"permissions": [
 		"declarativeContent", 
 		"activeTab",
-		"storage", 
-		"tabs"
+		"storage"
 	], 
 	"background": {
 		"scripts": [
@@ -29,8 +27,9 @@
 		"js": ["content-script.js"]
 		}
 	],
-
 	"icons" : {
-		"48" : "assets/small.png"
+		"16" : "assets/icons/bb16.png", 
+		"48" : "assets/icons/bb48.png", 
+		"128": "assets/icons/bb128.png"
 	}
 }

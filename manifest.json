@@ -3,8 +3,8 @@
 	
 	"name": "UVM Blackboard Autofill NetID",
 	"description": "Autofill NetID when logging into Blackboard",
-	"version": "1.0.0",
-	"version_name": "1.0.0",
+	"version": "1.0.1",
+	"version_name": "1.0.1",
 
 	"page_action" : {
 		"default_icon" : "assets/icons/bb16.png",

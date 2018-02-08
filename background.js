@@ -18,7 +18,7 @@ chrome.runtime.onInstalled.addListener(function() {
 
 //Send message to content script to populate field on refresh
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab)=>{
-	if (tab.url.includes(blackboardUrl) > -1 && changeInfo.url === undefined){
+	if (tab.url.includes(blackboardUrl) && changeInfo.status === "complete"){
 		chrome.tabs.query({active: true, currentWindow: true}, (tabs)=> {
 			chrome.storage.sync.get(['netId'], (syncedData)=> {
 				if(chrome.runtime.lastError){

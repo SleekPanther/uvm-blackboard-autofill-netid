@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 		}
 	})
 
-	//Auto-populate field in popup with synced value when popup opens
+	//Auto-populate field in the popup with synced value when popup opens
 	chrome.storage.sync.get(['netId'], (syncedData)=> {
 		if(chrome.runtime.lastError){
 			console.log(chrome.runtime.lastError.message)

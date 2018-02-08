@@ -1,5 +1,6 @@
+let usernameCssId = 'user_id'
 chrome.runtime.onMessage.addListener((request, sender, sendResponse)=> {
 	if(request.msg === 'saveNetId'){
-		document.getElementById('user_id').value = request.netId
+		document.getElementById(usernameCssId).value = request.netId
 	}
 })

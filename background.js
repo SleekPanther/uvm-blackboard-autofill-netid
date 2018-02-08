@@ -10,7 +10,7 @@ chrome.runtime.onInstalled.addListener(function() {
 					pageUrl: { urlContains: blackboardUrl },
 				})
 			],
-			// And shows the extension's page action.
+			// And shows the extension's page action
 			actions: [ new chrome.declarativeContent.ShowPageAction() ]
 		}])
 	})

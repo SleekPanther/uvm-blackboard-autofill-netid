@@ -2,13 +2,13 @@
 	"manifest_version": 2,
 	
 	"name": "UVM Blackboard Save Username",
-	"description": "Save netid when logging into Blackboard",
-	"version": "0.1.0",
-	"version_name": "0.1.0",
+	"description": "Autofill NetId when logging into Blackboard",
+	"version": "1.0.0",
+	"version_name": "1.0.0",
 
 	"page_action" : {
 		"default_icon" : "assets/icons/bb16.png",
-		"default_title" : "Save your netid", 
+		"default_title" : "Save your NetId", 
 		"default_popup": "popup.html"
 	},
 	"permissions": [
